@@ -10,6 +10,8 @@ You'll find everything you need to get started in the [project wiki][], but you 
 
 #### Build
 
+[For Windows 10] Start Powershell as Administrator.
+
 From within the root directory of your repository, the following command will build both the Sagan site and indexer applications, running all unit and integration tests along the way:
 
 > _**Tip:** New to Gradle? Check out [[Gradle tips]]!_
