@@ -8,6 +8,34 @@ In addition to the practical purpose of powering Spring's home on the web, this 
 
 You'll find everything you need to get started in the [project wiki][], but you can also begin by simply browsing through the repository and finding what's of interest to you. You'll find README files in key directories, and Javadoc throughout the code. The app and all of its documentation are designed with the idea of a 'self-guided tour' in mind.
 
+#### Run the site locally from the command line
+
+[For Windows 10] Start Powershell as Administrator.
+
+From the root directory of your sagan repository, run the following:
+
+> _**Tip:** New to Gradle? Check out [[Gradle tips]]!_
+
+```
+./gradlew :sagan-site:bootRun
+```
+
+After a few seconds, you should see:
+```
+sagan.SiteApplication : Started SiteApplication
+```
+
+Now, go to <http://localhost:8080> and you should see homepage. Click around and explore a bit—you should find the site is identical in every way to what you see at [spring.io](http://spring.io).
+
+> _**Note:** The exceptions to the above are rendering guides and blogs and also search. Out of the gate, you'll get 500 errors when you try to perform a search, the guides will be empty and blogs will also fail to compile. To remedy this, you'll need to [[enable search locally]] and [[run the renderer service]]._
+
+
+### Next steps
+
+At this point, you may want to [[build everything]] or [[import into IDEA or Eclipse]] if you have not already.
+
+(See [project wiki][] for other details.)
+
 ## Q&A and issue tracking
 
 If you have any questions, feedback, or feature requests, don't hesitate to [add an issue][].
