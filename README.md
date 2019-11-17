@@ -8,6 +8,30 @@ In addition to the practical purpose of powering Spring's home on the web, this 
 
 You'll find everything you need to get started in the [project wiki][], but you can also begin by simply browsing through the repository and finding what's of interest to you. You'll find README files in key directories, and Javadoc throughout the code. The app and all of its documentation are designed with the idea of a 'self-guided tour' in mind.
 
+#### Build
+
+From within the root directory of your repository, the following command will build both the Sagan site and indexer applications, running all unit and integration tests along the way:
+
+> _**Tip:** New to Gradle? Check out [[Gradle tips]]!_
+
+    ./gradlew build
+
+Or, on Windows:
+
+    gradlew.bat build
+
+
+When the build is finished, you should see the following:
+```
+BUILD SUCCESSFUL
+```
+
+### Next steps
+
+You're now ready to [[import into IDEA or Eclipse]] or you can [[run the site locally]] straight away.
+
+(See [project wiki][] for other details.)
+
 #### Run the site locally from the command line
 
 [For Windows 10] Start Powershell as Administrator.
