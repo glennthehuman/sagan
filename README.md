@@ -28,7 +28,7 @@ When the build is finished, you should see the following:
 BUILD SUCCESSFUL
 ```
 
-### Next steps
+##### Next steps
 
 You're now ready to [[import into IDEA or Eclipse]] or you can [[run the site locally]] straight away.
 
@@ -56,7 +56,7 @@ Now, go to <http://localhost:8080> and you should see homepage. Click around and
 > _**Note:** The exceptions to the above are rendering guides and blogs and also search. Out of the gate, you'll get 500 errors when you try to perform a search, the guides will be empty and blogs will also fail to compile. To remedy this, you'll need to [[enable search locally]] and [[run the renderer service]]._
 
 
-### Next steps
+##### Next steps
 
 At this point, you may want to [[build everything]] or [[import into IDEA or Eclipse]] if you have not already.
 
